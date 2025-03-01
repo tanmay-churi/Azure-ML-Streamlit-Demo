@@ -879,11 +879,11 @@ if __name__ == "__main__":
     # If we don't set the title, it will default to "Streamlit"
     st.set_page_config(page_title="HyperTuneML Platform")
 
-    # Call function to display the background image with opacity
-    display_background_image(
-        "https://i.morioh.com/52c215bc5f.png",
-        0.8,
-    )
+    # # Call function to display the background image with opacity
+    # display_background_image(
+    #     "https://i.morioh.com/52c215bc5f.png",
+    #     0.8,
+    # )
 
     # Calling Main Function
     main()
